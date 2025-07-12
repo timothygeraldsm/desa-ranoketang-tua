@@ -556,21 +556,19 @@ export default function VillageProfileWebsite() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-0">
-                  <div className="bg-gradient-to-br from-green-100 to-blue-100 h-80 flex items-center justify-center relative overflow-hidden">
-                    <div className="text-center z-10">
-                      <MapPin className="h-16 w-16 text-green-600 mx-auto mb-4" />
-                      <h4 className="text-xl font-semibold text-green-800 mb-2">Peta Interaktif</h4>
-                      <p className="text-gray-600 px-4">
-                        Peta Google Maps akan ditampilkan di sini untuk menunjukkan lokasi tepat Desa Sejahtera
-                      </p>
-                      <Button className="mt-4 bg-green-600 hover:bg-green-700">Buka di Google Maps</Button>
-                    </div>
-                    {/* Decorative elements */}
-                    <div className="absolute top-4 left-4 w-8 h-8 bg-green-300 rounded-full opacity-50"></div>
-                    <div className="absolute bottom-6 right-6 w-12 h-12 bg-blue-300 rounded-full opacity-30"></div>
-                    <div className="absolute top-1/2 left-8 w-6 h-6 bg-amber-300 rounded-full opacity-40"></div>
-                  </div>
-                </CardContent>
+  <div className="w-full h-80 rounded-md overflow-hidden">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.109815119141!2d124.61032444999998!3d1.12085055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328750a67a6d4ca9%3A0x400a90d2a4fa8b2c!2sRanoketang%20Tua%2C%20Amurang%2C%20South%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1752304864587!5m2!1sen!2sid"
+      width="100%"
+      height="100%"
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      style={{ border: 0 }}
+    />
+  </div>
+</CardContent>
+
               </Card>
 
               {/* Geographic Details */}
