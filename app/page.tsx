@@ -555,7 +555,20 @@ export default function VillageProfileWebsite() {
                     <span>Peta Lokasi</span>
                   </CardTitle>
                 </CardHeader>
-                
+                <CardContent className="p-0">
+  <div className="w-full">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.109815119141!2d124.61032444999998!3d1.12085055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328750a67a6d4ca9%3A0x400a90d2a4fa8b2c!2sRanoketang%20Tua%2C%20Amurang%2C%20South%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1752304864587!5m2!1sen!2sid"
+      width="100%"
+      height="360"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</CardContent>
+
               </Card>
 
               {/* Geographic Details */}
