@@ -556,7 +556,7 @@ export default function VillageProfileWebsite() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-0">
-  <div className="relative h-80 overflow-hidden rounded-b-md">
+  <div className="relative w-full h-[360px] overflow-hidden rounded-b-md">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.109815119141!2d124.61032444999998!3d1.12085055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328750a67a6d4ca9%3A0x400a90d2a4fa8b2c!2sRanoketang%20Tua%2C%20Amurang%2C%20South%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1752304864587!5m2!1sen!2sid"
       width="100%"
@@ -566,11 +566,6 @@ export default function VillageProfileWebsite() {
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
-
-    {/* Decorative elements (optional) */}
-    <div className="absolute top-4 left-4 w-8 h-8 bg-green-300 rounded-full opacity-50"></div>
-    <div className="absolute bottom-6 right-6 w-12 h-12 bg-blue-300 rounded-full opacity-30"></div>
-    <div className="absolute top-1/2 left-8 w-6 h-6 bg-amber-300 rounded-full opacity-40"></div>
   </div>
 </CardContent>
 
